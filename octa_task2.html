@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="octa_task2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="octa_task2.js"></script>
+</head>
+
+<body>
+
+    <header style="display: flex; text-align: center;">
+        <h1 style="text-align: center;">To Do List</h1>
+        <div class="img-container">
+            <img src="note.webp" alt="" width="300px" height="300px">
+            <div class="priority">Priority List</div>
+            <div class="list">
+                <li id="1"></li>
+                <li id="2"></li>
+                <li id="3"></li>
+
+
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <label for="date">Due Date</label>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t1" class="t">
+            <input type=" text" id="task1" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox1()">DONE</button>
+            <button class="icon" onclick="clearInput1()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp" id="imp1" onclick="showList1()"><i class="fa-solid fa-circle-exclamation fa-xl"
+                    style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t2" class="t">
+            <input type=" text" id="task2" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox2()">DONE</button>
+            <button class="icon" onclick="clearInput2()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp" id="imp2" onclick="showList2()"><i class="fa-solid fa-circle-exclamation fa-xl"
+                    style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t3" class="t">
+            <input type=" text" id="task3" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox3()">DONE</button>
+            <button class="icon" onclick="clearInput3()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp" id="imp3" onclick="showList3()"><i class="fa-solid fa-circle-exclamation fa-xl"
+                    style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t4" class="t">
+            <input type=" text" id="task4" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox4()">DONE</button>
+            <button class=" icon" onclick="clearInput4()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp"><i class="fa-solid fa-circle-exclamation fa-xl" style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t5" class="t">
+            <input type=" text" id="task5" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox5()">DONE</button>
+            <button class="icon" onclick="clearInput5()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp"><i class="fa-solid fa-circle-exclamation fa-xl" style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t6" class="t">
+            <input type=" text" id="task6" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox6()">DONE</button>
+            <button class=" icon" onclick="clearInput6()"> <i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp"><i class="fa-solid fa-circle-exclamation fa-xl" style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t7" class="t">
+            <input type=" text" id="task7" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox7()">DONE</button>
+            <button class=" icon" onclick="clearInput7()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp"><i class="fa-solid fa-circle-exclamation fa-xl" style="color: #ff1f1f;"></i></button>
+        </div>
+        <div class="todo" style="display: flex;">
+            <input type="checkbox" id="t8" class="t">
+            <input type=" text" id="task8" class="text">
+            <input type="date" id="date">
+            <button id="mark" onclick="enableCheckbox8()">DONE</button>
+            <button class="icon" onclick="clearInput8()"><i class="fa-solid fa-trash fa-xl"></i></button>
+            <button class="imp"><i class="fa-solid fa-circle-exclamation fa-xl" style="color: #ff1f1f;"></i></button>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+html {
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+
+}
+
+
+h1 {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-right: 200px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #e6f3ff;
+    text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.717);
+
+}
+
+header {
+    margin-bottom: 5px;
+
+}
+
+section {
+
+    margin-left: 550px;
+}
+
+.img-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-container img {
+    display: block;
+}
+
+.priority {
+    position: absolute;
+    top: 25%;
+    left: 32%;
+    color: rgb(247, 39, 39);
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.858);
+}
+
+.list {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    color: rgb(247, 39, 39);
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.858);
+}
+
+.imp {
+    border: transparent;
+    background-color: transparent;
+    margin-left: 5px;
+}
+
+.todo {
+    margin: 10px 30px 10px 110px;
+}
+
+.t {
+    width: 200px;
+    height: 30px;
+}
+
+.text {
+    height: 30px;
+    width: 780px;
+    border: 3px solid white;
+    border-radius: 25px;
+    background: #62d6e0;
+    color: darkblue;
+    text-align: center;
+    font-weight: 700;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mark {
+    width: 150px;
+    height: 30px;
+    margin-left: 15px;
+    background-color: rgba(104, 240, 119, 0.934);
+    border: 5px solid darkgreen;
+    box-shadow: 3px #e6f3ff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+#mark:hover {
+    color: rgb(57, 86, 10);
+    font-size: large;
+    font-weight: 800;
+}
+
+.icon {
+    background: transparent;
+    margin-left: 10px;
+}
+
+span {
+    margin: 2px;
+}
+
+#date {
+    width: 210px;
+    margin-left: 5px;
+    border-radius: 25px;
+    background-color: beige;
+    font-weight: 800;
+    color: brown;
+}
+
+label {
+    color: rgb(21, 92, 155);
+    margin-left: 540px;
+    font-weight: 800;
+    font-size: 25px;
+}
